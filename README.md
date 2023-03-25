@@ -1,0 +1,2 @@
+# gradient_method_triangles
+programing_task2
