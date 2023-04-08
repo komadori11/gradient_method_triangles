@@ -2,25 +2,8 @@
 最急降下法を用いた三角形の最大重ね合わせを求める
 
 ## contents
-filename | summary
+File/Folder | Description
 -|-
-```task2_0221.c``` | プログラム本体
-```input1.txt``` | ２つの三角形の座標が書かれたinputファイル
-- task2_0221  
-``inline``
+``task2_0221.c`` | ``input1.txt``に記載された2つの三角形の座標を読み込み、重ね合わせが最大になるような配置の座標および画像ファイルをoutputする
+``input1.txt`` | ２つの三角形の座標が書かれたinputファイル
 
-```c
-#include stdio.h
-int main(){
-  print("hello world");
-}
-```
-![ダミー画像](https://placehold.jp/150x150.png)  
-*syatai*です  
-**太字**です  
-~~訂正線~~です  
----
-名前|年齢
--|-
-aさん|20
-bさん|30
