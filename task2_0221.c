@@ -31,7 +31,7 @@ int main()
     read_file(tri1, tri2);
     if (cross_product(tri1[0][0], tri1[0][1], tri1[1][0], tri1[1][1], tri1[2][0], tri1[2][1]) >= 0 || cross_product(tri2[0][0], tri2[0][1], tri2[1][0], tri2[1][1], tri2[2][0], tri2[2][1]) >= 0)
     {
-        printf("input error\n"); // the coordinates enterd are in the wrong order
+        printf("INPUT ERROR\nthe coordinates enterd are in the wrong order\n");
         return 0;
     }
 
